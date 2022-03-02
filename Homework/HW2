@@ -2,6 +2,8 @@ HW1
 
 Due: AM 08:00, March 7, 2022
 
+You have two problems. The third one is cancelled.
+
 1. We have discussed the simplest circuit. (A voltage source and a resistor.)
 It generates a matrix system, where a 10-by-10 matrix is involved.
 Using the computer programming, solve the system.
@@ -11,5 +13,4 @@ Using the computer programming, solve the system.
 However, in this problem, instead of a voltage source, consider a current source.
 (The current and resistance can be freely set.)
 
-3. The divergence of the total current vector vanishes.
-From this rule, show that the sum of terminal currents (of any N-terminal circuit element) should vanish.
+3. (Cancelled)
