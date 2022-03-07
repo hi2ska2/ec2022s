@@ -1,0 +1,48 @@
+HW3
+
+Due: AM 08:00, March 14, 2022
+
+You have two problems. 
+
+1. There is a file format called the netlist.
+In the netlist, there are several lines.
+Each line specifies a circuit element.
+The starting letter defines its type. (v is for a voltage source and r is for a resistor.)
+The first word is its name.
+Then, the second and third words are the connected nodes.
+The final fourth word (a number) represent either the voltage (of a voltage source) or the resistance (of a resistor).
+
+For example, a netlist file
+
+v1 out 0 0.7
+r1 out 0 1.0
+
+describes a circuit with a voltage source (v1) and a resistor (r1).
+The second terminals of these circuit elements are connected to the ground (0).
+Their first terminaals are connected to a node called out. 
+Of course, the current will be 0.7 A.
+
+Up to now, it was a simplified description about the netlist file format. 
+Now we have the problem.
+Consider a netlist shown below.
+Calculate the cathode voltage.
+
+v1 batt 0 1.5
+rchar batt anode 1e6
+rpcss anode cathode 21
+rload cathode 0 50
+
+2. Consider a two-terminal circuit element, whose IV relation is given as
+
+I_2 = G * (V_2-V_1) for V_2 - V_1 >=0,
+I_2 = 0             for V_2 - V_1 < 0,
+
+where the underscore (_) is introduced to represent the subscript and G is a certain number in the Simens unit.
+
+For such an circuit element, the following sinusoidal voltage difference is applied:
+
+V_2 - V_1 = sin( 2 * pi * t )
+
+Of course, t is the time.
+Therefore, the frequency is 1 Hz and the peak voltage difference can be either +1 V or -1 V.
+Draw I_2 as a function of t.
