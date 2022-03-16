@@ -1,0 +1,19 @@
+HW5
+
+Due: AM 08:00, March 21, 2022
+
+You have two problems. 
+
+1. In the Lecture5, we have discussed the number of silicon atoms per cubic cm.
+Calculate it.
+
+Hint: In order to calculate it, you must understand the crystal structure of silicon.
+Silicon has the diamond structure. (What is it? Search it.)
+First, calculate the total number of atoms inside a cubic cell of the diamond structure.
+Next, calculate the cell volume. (This is silicon's material property. Search it.)
+From these two quantities, you can calculate the density. 
+
+2. When a semiconductor material is in its purest condition (intrinsic material), 
+the number of "electrons" (here, the term, "electrons," refers the electrons which can contribute to the currnet conduction.) is called the intrinsic carrier density.
+What is the intrinsic carrier density of silicon at 300 K?
+(You don't have to calculate it. Search it and write the answer. Show your reference.)
