@@ -2,4 +2,18 @@ HW6
 
 Due: AM 08:00, March 23, 2022
 
-The problems will be posted after Lecture6.
+You have two problems.
+
+1. In the Lecture6, we have discussed about the diamond structure.
+Consider a single unit cube of the diamond structure. 
+Since it is a three-dimensional object, it is difficult for us to understand it.
+A projection of a three-dimensional object onto a two-dimensional plane can be a good way to improve the visibility.
+In this problem, draw the cube projected onto the following three different planes.
+One is the y-z plane, which is perpendicular to the (1,0,0) vector.
+Another one is a plane perpendicular to the (1,1,0) vector.
+The last one is a plane perpendicular to the (1,1,1) vector.
+
+2. Now we know that the intrinsic carrier densityt of silicon at 300 K is about 1e10 /cm3.   
+Compare this number with those of other semiconductors.
+In your report, at least, include Ge, GaAs, GaN, and SiC.
+(You don't have to calculate them. Search them and write the answer. Show your reference.)
