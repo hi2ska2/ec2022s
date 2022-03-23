@@ -1,0 +1,33 @@
+HW7
+
+Due: AM 08:00, March 28, 2022
+
+You have three problems.
+
+1. In the Lecture7, we have discussed about the impurities.
+By introducing the impurity atoms, we can control the number of charge carriers (holes and electrons).
+However, the fabrication method to introduce the impurity atoms was not discussed.
+The most representative method is the ion implantation.
+Write a report on the ion implantation.
+(Show your reference.)
+
+2. By solving the first problem, now you know the ion implantation.
+Let's assume that the impurity atoms are ion implanted.
+For a unit area of 1 cm^2, seen from the wafer top surface, the number of implanted atoms is 1e13.
+Also, the implanted atoms are uniformly distributed within 200 nm from the wafer surface.
+In the implanted region, calculate the (uniform) ion concentration, which has a unit of /cm^3.
+
+3. In the Lecture8, we will learn about the current conduction mechanisms.
+In order to prepare the Lecture8, remember the concept of the electric field.
+You have a two-terminal element.
+It has a left terminal and a right one.
+The distance between two terminals is 1 um. 
+(We must write micrometer = 1e-6 m here, however, the ascii file does not allow the Greek letter, mu. 
+So, 1 um = 1 micrometer in this problem. 
+However, use the Greek letter mu, whenever possible.)
+The left terminal is biased as 0 V.
+The right terminal is biased as 1 V.
+Calculate the electric field, which has a unit of V/cm.
+Also, write down the direction of the electric field.
+(You know that the electric field is a vector quantity.)
+Assume that the electric field is uniform.
