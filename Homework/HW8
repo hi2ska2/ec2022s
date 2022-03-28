@@ -1,0 +1,34 @@
+HW8
+
+Due: AM 08:00, March 30, 2022
+
+You have two problems.
+
+1. In the Lecture8, a relation, n * p = n_i^2 , was shown.
+(Note that it is valid at certain special cases. For a while, assume that it is valid.)
+Consider a N-type semiconductor.
+The donor density is given as N_D. (Of course, N_D is a positive number.)
+By applying the charge neurality, -n + p + N_D = 0, express n as a function of N_D.
+(Of course, we know that n becomes close to N_D, when we have a large N_D value. This problem asks you a general expression.)
+
+2. In the Lecture8, it was stated that electrons in the N-type region diffuse into the P-type region.
+This problem is introduced to show that the above statement is wrong.
+
+Consider a N^+ P junction, whose doping densities are 1e20 /cm^3 and 1e17 /cm^3, respectively.
+Assume that the jucntion is wide, when it is seen from the wafer top surface.
+Therefore, we can say that the junction is actually one-dimensional (along the vertical direction).
+The diffusion current density, J(A/cm^2), can be obtained by 
+J = q D_n dn/dx,
+where q is the absolution elementary charge (~ 1.6e-19 C), 
+D_n is the electron diffusivity (whose value is assumed to be 25 cm^2/V), 
+and dn/dx is the gradient of the electron density. 
+
+In this problem, the direction of the diffusion current density vector is not important. Just calculate the magnitude.
+In order to get the answer, we must know dn/dx.
+In your answer, consider the following three cases:
+1) The electron density varies linearly (from the N-type value to the P-type value) within 1 nm.
+2) The electron density varies linearly (from the N-type value to the P-type value) within 10 nm.
+3) The electron density varies linearly (from the N-type value to the P-type value) within 100 nm.
+
+By solving this problem, you can feel that something is wrong...
+Let's solve such a difficulty in the Lecture9!
