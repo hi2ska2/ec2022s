@@ -1,0 +1,63 @@
+HW9
+
+Due: AM 08:00, April 4, 2022
+
+You have four problems.
+
+1. In the Lecture9, it was found that the drift current density cancels out the diffusion current density at equilibrium.
+To be more accurate, the electron current density (which includes both), J_n, is given by
+J_n = q mu_n n E + q D_n dn/dx,
+where mu_n is the electron mobility (cm^2/V sec) and E is the magnitude of the x-directional electric field (V/cm).
+Other quantities have the same physical meanings. (You saw them in the HW8.)
+
+In this problem, just calculate the magnitude of the electric field, E, to cancel out the diffusion current density.
+Feel the number. 
+Consider two extremes:
+1) n = 1e20 /cm^3 
+2) n = 1e3 /cm^3
+
+Use the following constants:
+
+q = 1.6e-19 C (Throughout this lecture, we will use the absolute elementary charge, q. An electron carries the charge of -q.)
+mu_n = 1000 cm^2/V sec (cm^2 is divided by both V and sec.)
+D_n = 25 cm^2/sec (Actaully, there exists a relation between mu_n and D_n at equilibrium. But, in this problem, just use this number.)
+dn/dx = (1e20 /cm^3) / (100 nm)
+
+2. Well, from P1, we realize that the electric field is really dependent on the position.
+Of course, our assumption of a constant dn/dx is not valid.
+
+In this problem, derive a relation between the electron density and the electrostatic potential, phi. 
+Of course, your relation is valid at equilibrium.
+
+What is the electrostatic potential? 
+It satisfies the following relation:
+E = - d(phi)/dx.
+
+Additionally, use the following relation between mu_n and D_n:
+D_n = V_T * mu_n,
+where V_T is a constant called the thermal voltage. (Yes, it is a voltage. At 300 K, its value is about 0.02585 V, but just keep the symbol.)
+
+Hint: Note that J_n = 0 at equilibrium. Use the relation between E and phi.
+
+3. Repeat P2 for holes.
+In this case, we have
+J_p = q mu_p p E - q D_p dp/dx,
+where the subscript p is used for hole-related quantities and the sign for the diffusion term is changed.
+Of course, we still have the following relation:
+D_p = V_T * mu_p,
+where mu_p can be different with mu_n in general. (Usually, mu_p is lower that mu_n.)
+
+4. Now, from P2 & P3, we find that the electron density, the hole density, and the electric field can vary drastically inside the PN junction.
+Therefore, it is not trivial to calculate those quantities accurately.
+In this problem, just calculate the electric field as a function of x.
+
+It is assumed that we have the following charge distribution:
+When x < -0.1 nm, it is neutral.
+When -0.1 nm < x < 0, a constant charge density, +q * 1e20 /cm^3.
+When 0 < x < 100 nm, a constant charge density, -q * 1e17 /cm^3.
+When x > 100 nm, it is neutral.
+
+In order to solve this problem, you must emply the Gauss law,
+d(E)/dx = rho / epsilon,
+where rho is the charge density (specified above) and epsilon is the permittivity.
+For silicon, epsilon is 11.7 times the vacuum permittivity.
