@@ -49,7 +49,7 @@ where mu_p can be different with mu_n in general. (Usually, mu_p is lower that m
 
 4. Now, from P2 & P3, we find that the electron density, the hole density, and the electric field can vary drastically inside the PN junction.
 Therefore, it is not trivial to calculate those quantities accurately.
-In this problem, just calculate the electric field as a function of x.
+In this problem, under the given charge distribution, just calculate the electric field as a function of x.
 
 It is assumed that we have the following charge distribution:
 When x < -0.1 nm, it is neutral.
@@ -57,7 +57,7 @@ When -0.1 nm < x < 0, a constant charge density, +q * 1e20 /cm^3.
 When 0 < x < 100 nm, a constant charge density, -q * 1e17 /cm^3.
 When x > 100 nm, it is neutral.
 
-In order to solve this problem, you must emply the Gauss law,
+In order to solve this problem, you must employ the Gauss law,
 d(E)/dx = rho / epsilon,
 where rho is the charge density (specified above) and epsilon is the permittivity.
 For silicon, epsilon is 11.7 times the vacuum permittivity.
