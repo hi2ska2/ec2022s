@@ -1,0 +1,42 @@
+HW10
+
+Due: AM 08:00, April 6, 2022
+
+You have three problems.
+
+1. This problem considers a case quite similar with P4 of HW9.
+
+Consider a PN junction (N+: 1e20 /cm^3 and P: 1e17 /cm^3) at equilibrium.
+It is assumed that we have the following charge distribution: (Caution! Lengths are slightly modified.)
+When x < -0.12 nm, it is neutral.
+When -0.12 nm < x < 0, a constant charge density, +q * 1e20 /cm^3.
+When 0 < x < 120 nm, a constant charge density, -q * 1e17 /cm^3.
+When x > 120 nm, it is neutral.
+You can easily calculate the electric field, as in P4 of HW9.
+
+The problem is to calculate the electrostatic potential (phi) difference between two sides (x = - infinity and x = + infinity).
+
+Remember the following relation:
+E = - d(phi)/dx.
+
+So, what you have to do is...
+First, calculate E as a function of x. (You did a similar job for P4 of HW9.)
+Next, integrated (-E) from x = - infinity to x = + infinity. Then, you will have the potential difference, phi(x = + infinity) - phi(x = - infinity).
+
+It is noted that your answer must have a negative value.
+
+2. P1 was for a PN junction at equilibrium.
+Now, consider the same junction with a forward bias voltage of 0.1 V.
+The depletion region (120 nm + 0.12 nm at equilibrium) gets narrower.
+Calculate the width of the depletion region.
+
+Hint: Set the depletion region widths (W_n for the N+ side and W_p for the P side) as two unknown variables. 
+Of course, their ratio is fixed as W_n:W_p = 1:1000.
+Try to find out W_p, with which the electrostatic potential difference becomes (The solution of P1) + 0.1 V.
+Here, (The solution of P1) is a negative number, as stated above.
+
+3. Repeat P2 with a reverse bias voltage of 0.1 V.
+In this case, the depletion region gets wider.
+
+Hint: Yes, the same approach with P2. 
+Just try to find out W_p, with which the electrostatic potential difference becomes (The solution of P1) - 0.1 V.
