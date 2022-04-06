@@ -1,0 +1,46 @@
+HW11
+
+Due: AM 08:00, April 11, 2022
+
+You have five problems.
+
+1. We frequently use the thermal voltage.
+At 300 K, its value is approximately 25.85 mV.
+In this problem, write down the exact expression to calculate the thermal voltage.
+With the exact expression, calculate the thermal voltage at 77 K, 300 K, and 350 K.
+
+2. We have stduied the IV relation of a PN junction. (Assume a forward bias, V>0, and 300 K.)
+
+I = I_S exp (V/V_T),
+where I_S is the reverse saturation current. 
+(In photodiodes, it is also called the dark current. However, in this course, the reverse saturation current would be a correct name.)
+
+In this problem, assume that I_S is 1e-16 A.
+Draw the IV curve with the maximum y-axis value of 10 mA.
+Then, estimate a voltage required to turn on your PN junction.
+
+In your answer, you must show both of the IV curve and the estimated voltage.
+
+3. Now, consider a different PN junction with I_S = 1e-14 A.
+Once again, draw the IV curve with the maximum y-axis value of 10 mA.
+Your curve is a shifted version of the one in P2.
+By comparing two curves, estimate the amount of the voltage shift. 
+
+4. In the lecture, we have studied that we must apply a small, additional voltage (V_T * log(10)) to increase the current by a factor of 10.
+In this problem, just show the same result with your own derivation.
+
+5. Consider the following netlist:
+
+v1 in 0 dc 1
+d1 in out is=0.1f
+r1 out 0 1k
+
+It represent a circuit, where a diode (d1) and a resistor (r1) are serially connected.
+"v1 in 0 dc 1" means a dc voltage source of 1 V.
+The "in" node is 1 V. (0 is reserved for the ground.)
+"d1 in out is=0.1f" means a diode whose anode is connected to the "in" node, while its cathode is connected to the "out" node.
+Its I_S value is 1e-16 A (= 0.1 fA).
+Finally, "r1 out 0 1k" means a resistor whose resistance is 1 kOhm.
+
+Calculate the current.
+(There can be many different ways to find out the answer. It's up to you.)
