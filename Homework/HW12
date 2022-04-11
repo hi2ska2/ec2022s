@@ -1,0 +1,31 @@
+HW12
+
+Due: AM 08:00, April 13, 2022
+
+You have five problems.
+
+1. Write a report on the SPICE program.
+(Show your references explicitly.) 
+
+2. At the end of L12, the Newton method was introduced.
+Simply speaking, the Newton method lets you know how to improve your temporary solution to reduce the error.
+Write a report on the Newton method.
+(Show your reference explicitly.)
+
+3. Solve x^2 - 1 = 0 by the Newton method.
+The initial solution is assumed to be x = 2.
+Show your solution procedure to obtain x = 1. (Very close to 1)
+
+4. For a resistor, we have
+I = V / R.
+Assume that I is I_dc when V is V_dc. (V_dc and I_dc are certain numbers.)
+Express dI/dV | V=V_dc, in terms of I_dc and R. (V_dc should be avoided in your expression.)
+
+Hint: It's a trivial problem.
+
+5. For a diode, we have
+I = I_S ( exp(V/V_T) - 1 ).
+Assume that I is I_dc when V is V_dc. (V_dc and I_dc are certain numbers.)
+Express dI/dV | V=V_dc, in terms of I_dc, I_S, and V_T. (V_dc should be avoided in your expression.)
+
+Hint: It's a really simple problem.
