@@ -1,0 +1,34 @@
+HW15
+
+Due: AM 08:00, May 2, 2022
+
+You have four problems.
+
+1. We have studied the inversion in the MOS structure.
+Let us denote the inversion electron sheet density (/cm^2) as N_inv.
+Then, the charge sheet density due to the inversion electrons, Q_inv (C/cm^2), is given by
+Q_inv = (-q) * N_inv.
+In the simplest form, it can be written as 
+Q_inv = 0, when V_G < V_TH,
+Q_inv = -C_ox * (V_G - V_TH), when V_G > V_TH,
+The negative sign is introduced, because the electrons have negative charges.
+
+Now, consider a MOS structure whose effective oxide thickness is 1 nm.
+The threshold voltage, V_TH, is assumed to be 0.25 V.
+Calculate N_inv when the gate voltage is 0.7 V.
+
+2. Visit ec2020s/Resources/L15.pdf in our GitHub repository.
+There, you can find the first graph.
+The red curve represents -Q_inv as a function of V_G.
+You can find that the approximate expressions in P1 fit well. 
+(Ignore the smooth transition between V_G < V_TH and V_G > V_TH.)
+From this curve, estimate C_ox (C/cm^2) and V_TH (V).
+
+3. Although we assumed Q_inv = 0 when V_G < V_TH in P1 and P2, Q_inv is not exactly zero at a low gate voltage.
+The second graph of ec2020s/Resources/L15.pdf in our GitHub repository (especially the red curve) shows -Q_inv in the semi-log scale.
+Calculate the ratio of N_inv between V_G = 0.4 V and V_G = 1.0 V.
+
+4. 
+Assume that the red curve in the second graph of ec2020s/Resources/L15.pdf in our GitHub repository is still a straight line down to V_G = 0.0 V.
+Then, estimate N_inv at V_G = 0.0 V.
+Using this estimate value, calculate the ratio of N_inv between V_G = 0.0 V and V_G = 1.0 V.
