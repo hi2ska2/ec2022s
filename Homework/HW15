@@ -17,7 +17,7 @@ Now, consider a MOS structure whose effective oxide thickness is 1 nm.
 The threshold voltage, V_TH, is assumed to be 0.25 V.
 Calculate N_inv when the gate voltage is 0.7 V.
 
-2. Visit ec2020s/Resources/L15.pdf in our GitHub repository.
+2. Visit ec2022s/Resources/L15.pdf in our GitHub repository.
 There, you can find the first graph.
 The red curve represents -Q_inv as a function of V_G.
 You can find that the approximate expressions in P1 fit well. 
@@ -25,10 +25,10 @@ You can find that the approximate expressions in P1 fit well.
 From this curve, estimate C_ox (C/cm^2) and V_TH (V).
 
 3. Although we assumed Q_inv = 0 when V_G < V_TH in P1 and P2, Q_inv is not exactly zero at a low gate voltage.
-The second graph of ec2020s/Resources/L15.pdf in our GitHub repository (especially the red curve) shows -Q_inv in the semi-log scale.
+The second graph of ec2022s/Resources/L15.pdf in our GitHub repository (especially the red curve) shows -Q_inv in the semi-log scale.
 Calculate the ratio of N_inv between V_G = 0.4 V and V_G = 1.0 V.
 
 4. 
-Assume that the red curve in the second graph of ec2020s/Resources/L15.pdf in our GitHub repository is still a straight line down to V_G = 0.0 V.
+Assume that the red curve in the second graph of ec2022s/Resources/L15.pdf in our GitHub repository is still a straight line down to V_G = 0.0 V.
 Then, estimate N_inv at V_G = 0.0 V.
 Using this estimate value, calculate the ratio of N_inv between V_G = 0.0 V and V_G = 1.0 V.
