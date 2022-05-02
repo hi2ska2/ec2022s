@@ -1,0 +1,11 @@
+HW16
+
+Due: AM 08:00, May 4, 2022
+
+You have only one problem.
+
+1. We have an NMOSFET, whose source and body are tied and connected to the ground.
+(The NMOSFET is the device studied in the lecture.)
+Both of the gate and drain terminals are biased to 0.65 V.
+The drain current is 56 uA. (We must write the Greek letter, mu, but it is not possible in the GitHub respository.)
+Calculate the DC power consumption by the MOSFET.
