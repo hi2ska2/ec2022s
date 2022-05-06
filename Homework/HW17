@@ -7,7 +7,7 @@ You may (or may not) use the computer software.
 
 1. Consider an NMOSFET.
 Its parameters are:
-t_ox = 1.2 nm, L = 1 um, W = 1um, mu_n = 500 cm^2/V, and V_TH = 0.3 V.
+t_ox = 1.2 nm, L = 1 um, W = 1um, mu_n = 500 cm^2/V sec, and V_TH = 0.3 V.
 
 By using an expession studied in the lecture, draw the I_D versus V_G curve, when V_D = 0.05 V.
 (Draw in the linear-linear scale.)
