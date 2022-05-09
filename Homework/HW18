@@ -1,0 +1,23 @@
+HW18
+
+Due: AM 08:00, May 11, 2022
+
+You have two problems.
+
+1. In the lecture, we have considered two devices. (A long-channel device and a shor-channel one)
+From graphs, estimate the on-current, I_ON, of each device.
+Also, calculate the power dissipation by each MOSFET, when it is biased at the on-current condition.
+
+2. Let us consider an NMOSFET.
+Its drain voltage is fixed to V_DD.
+Its gate voltage is given as
+V_G(t) = V_G0 + 0.001 V * sin (2*pi*f*t),
+where V_G0 is a certain DC voltage and f is a frequency.
+We assume that f is not so high.
+Other terminals are grounded.
+
+When the gate voltage is V_G0, the input curve shows that d(I_D)/d(V_G) is 1.3 mS = 1.3 mA/V.
+Now, we assume that the drain current is given as
+I_D(t) = I_D0 + deltaI * sin (2*pi*f*t),
+where I_D0 is a certain DC current.
+Calculate the amplitude of the AC drain current, deltaI.
