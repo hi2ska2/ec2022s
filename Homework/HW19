@@ -1,0 +1,25 @@
+HW19
+
+Due: AM 08:00, May 16, 2022
+
+You have six problems.
+
+1. Consider a circuit studied in the lecture.
+For the MOSFET, we have the following parameters:
+mu_n * C_ox = 100 uA/V^2, V_TH = 0.5 V, W = 10 um, and L = 180 nm.
+The resistance of the resistor connected to the drain terminal is 1 kOhm.
+Assume that V_DD is 1.8 V.
+
+Calculate the input voltage, when the transistor is at the border between the triode mode and the saturation one.
+
+2. For the same circuit, calculate the output voltage, when the input voltage is V_DD.
+
+3. Calculate the maximum value of -d(V_out)/d(V_in).
+Note that we have (-) sign, because d(V_out)/d(V_in) is non-positive.
+
+4. Repeat P1 with a wider MOSFET with W = 50 um.
+All other values are the same with P1.
+
+5. Similarly, repeat P2 with a wider MOSFET with W = 50 um.
+
+6. Similarly, repeat P3 with a wider MOSFET with W = 50 um.
