@@ -1,0 +1,18 @@
+HW20
+
+Due: AM 08:00, May 18, 2022
+
+You have three problems.
+
+1. Consider an amplifier studied in the lecture.
+For the MOSFET, we have the following parameters:
+mu_n * C_ox = 100 uA/V^2, V_TH = 0.5 V, W = 10 um, and L = 180 nm.
+The resistance of the resistor connected to the drain terminal is 1 kOhm.
+Assume that V_DD is 1.8 V.
+
+Calculate the voltage gain (Note that it is negative.) when the gate DC voltage is 0.6 V.
+
+2. Repeat P1 when the gate DC voltage is 1.8 V.
+
+3. Calculate the maximum voltage gain. (Of course, maximize the absolute value of the voltage gain.)
+Show the gate DC voltage for the maximum voltage gain.
