@@ -1,0 +1,17 @@
+HW21
+
+Due: AM 08:00, May 23, 2022
+
+You have three problems.
+
+1. We have studied the impedance.
+When the angular frequency, omega, is given, write down the impedances of a resistor R, a capacitor C, and an inductor L.
+
+2. In the lecture, we tried to solve the KCL for the X node.
+Note that the X node is a node where a capacitor C and two resistors, R1 and R2, are met.
+Calculate the solution of the KCL by solving the ODE (ordinary differential equation) originated from the KCL.
+
+In this case, you may assume that the small-signal input, v_in(t), exhibits a sinusoidal waveform with an angular frequency, omega.
+
+3. Instead of solving the ODE, by using the impedances, calculate the voltage of the X node, V_X.
+Yes, we did it in the lecture, but, do it by yourself.
