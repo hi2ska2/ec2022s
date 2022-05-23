@@ -1,0 +1,21 @@
+HW22
+
+Due: AM 08:00, May 25, 2022
+
+You have three problems.
+
+1. In the lecture, we have introduced an equivalent circuit for the common-source amplifier.
+In this problem, just repeat the lecture material.
+Draw the equivalent circuit and derive the voltage gain. 
+
+2. As shown in P1, the voltage gain is proportioanl to the equivalent resistance, r_out || R_D.
+In our initial design, r_out >> R_D.
+In order to make the equivalent resistance large, R_D is increased, expecting that the voltage gain is increased accordingly.
+However, we cannot obtain an indefinitely large voltage gain.
+What is the maximum voltage gain (in the absolute value), achievable by increasing R_D?
+
+Note: Assume that the transistor is still in the saturation mode.
+
+3. Up to now, we have assumed that the output node (the drain terminal) is connected to only the NMOSFET and R_D.
+In this problem, an additional resistor, R_L, is connected to the output node.
+Once again, derive the voltage gain.
