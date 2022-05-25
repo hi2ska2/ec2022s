@@ -5,7 +5,7 @@ Due: AM 08:00, May 30, 2022
 You have three problems.
 
 1. Consider a common-source amplifier. 
-In its input terminal, a voltage source, v_in, and a resistor, r_in, are serially connected.
+In its input terminal, a voltage source, v_in, and a resistor, R_in, are serially connected.
 Also in its output terminal, a load resistor, R_L, is connected.
 
 In this problem, calculate the voltage gain.
@@ -16,7 +16,7 @@ Neglect the internal output resistance of the NMOSFET, which was written as r_ou
 3. Due to the time limitation, we have not covered other amplifier topologies.
 In this problem, consider a common-gate amplifier. (What is it? Find it in the textbook.)
 Its input terminal is now the source terminal.
-In its input terminal, a voltage source, v_in, and a resistor, r_in, are serially connected.
+In its input terminal, a voltage source, v_in, and a resistor, R_in, are serially connected.
 Also in its output terminal, a load resistor, R_L, is connected.
 
 Neglect r_out of the NMOSFET, and calculate the voltage gain.
